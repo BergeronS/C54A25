@@ -12,16 +12,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:gravity="bottom"
         android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/textView"
+        <EditText
+            android:id="@+id/champTexte"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:ems="10"
             android:gravity="center"
-            android:text="TextView"
-            android:textAlignment="gravity" />
+            android:inputType="text"
+            android:text="..."
+            android:textSize="24sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -51,10 +54,10 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/boutonMemo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="Ajouter Memo" />
         </LinearLayout>
 
         <LinearLayout
