@@ -39,6 +39,8 @@ class MainActivity3 : AppCompatActivity() {
 
     }
 
+
+
     // fonction ici
     // : retourne arrayliste de string
     fun lireMemos () : ArrayList<String> {
