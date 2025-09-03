@@ -1,0 +1,26 @@
+# *flux de donnee*
+
+ya moyen de diviser en char, en octet (1bit)
+
+pour un lecture en *char* le nom termine par ______Reader
+pour ecriture pour les char le nom termine par ______Writer
+
+pour les octets en lecture le nom termine par ____InputStream
+pour les octets en ecriture le nom termine par _____OutputStream
+
+
+faut toujours partir avec OpenFileInput si tu veux lire
+et OpenFileOutput pour ecrire.
+sa retourne toujours un flux d'octets.
+
+parcontre nous cetait des char donc fallait defaire les char pour les mettre en octet.
+Donc on a utiliser un flux de traduction: InputStreamReader/OutputStreamWriter
+
+stream c'est octet 
+reader/writer c'est char
+
+on avait aussi besoin d'un flux de traitement ---> le buffer BufferedWriter, BufferedReader
+
+Quand on lis on lis dans l'eponge donc on peut aller plus vite, ya readlines avec un s aussi.
+c'est pas bon pour les gros fichiers pcq y faut qui garde toute en memoire interne.
+
