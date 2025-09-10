@@ -1,0 +1,22 @@
+val/var
+class/dataclass
+check ss scanner le fis/getResources/buffer
+as Int pour transtyper
+
+singleton:
+un declaration d'un object special de cette classe la
+on va pouvoir acceder directementa cet object unique peu impiorte ou on se trouve
+dans le projet (cest utilise ici car on a 3 activites)
+on cree un singleton car on ne veut quune seul instnace de cette classe pour toute le projet.
+
+-on a plusieurs memo mais l'arraylist de memo on en a juste une.
+en kotlin on utilise le mt cle "object" au lieu de class pour le singleton.
+le singleton est creer lors de sa premiere utilisation.
+SingletonMemos.liste ou SingletonMemos.ajouterMemo()
+
+check DatePickerDialog() // faut passer le contexte which is this@lenomdetonactivity
+check toute les dialog sa se ressemble
+
+serialisation
+
+check ton contexte
