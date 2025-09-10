@@ -40,9 +40,12 @@ class AjouterActivity : AppCompatActivity() {
             else { // bouton ajouter
                 // creer un objet memo et ajouter le memo dans la liste du singleton
                 SingletonMemos.ajouterMemo(Memo (champMemo.text.toString(), dateChoisie))
+                SingletonMemos.serialiserListe(this@AjouterActivity)  // le fichier va etre dans device manager/data/data/nom package/files/serialisation.ser
                 champMemo.text.clear()
-                champText.
+                champText.text = ""
             // lajouter a notre liste
+
+                finish()
             }
         }
 
